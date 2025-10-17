@@ -1,21 +1,24 @@
 body{
     color: blue;
-    background: silver;
+    background: rgb(194, 20, 20);
     margin: 0px;
     font-family: "Lora",sans-serif;
 }
 
 header{
-    border-bottom: solid 2px red;
+    border-bottom: solid 2px rgb(0, 247, 255);
     padding: 20px;
     font-size:32px ; 
-    color: yellow
+    color: rgb(255, 0, 0)
 }
 
 section{
-    background:blueviolet ;
+    background:rgb(165, 155, 17) ;
     padding-bottom: 80;
     padding-top: flex;
     display:flex ;
     justify-content: center;
+}
+.chamada.texto{
+    margin-right: 5%;
 }
