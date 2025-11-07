@@ -3,6 +3,7 @@ body{
     background: rgb(194, 20, 20);
     margin: 0px;
     font-family: "Lora",sans-serif;
+    margin-bottom: 100px;
 }
 
 header{
@@ -39,8 +40,16 @@ img{
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
 }
 .categoria-video img{
 opacity: 0,5;
 height: 200px;
+}
+.categoria-video img:hover{
+    opacity: 1,0;
+    border: 1px solid white;
+}
+.categoria h2{
+    color: antiquewhite;
 }
